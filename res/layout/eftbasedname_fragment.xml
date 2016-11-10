@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+          >
+
+        
+        <ScrollView
+            android:id="@+id/scrollView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" >
+
+            <LinearLayout
+                android:id="@+id/eftbname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+        <Spinner
+        android:id="@+id/spinnerEAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+        <TextView
+            android:id="@+id/textBank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bank"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+    <Spinner
+        android:id="@+id/spinnerEBank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+        <TextView
+            android:id="@+id/textcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+        
+    <Spinner
+        android:id="@+id/spinnerECity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/textBranh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Branches"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+        
+    <Spinner
+        android:id="@+id/spinnerEBranch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+                
+                
+                
+    <TextView
+        android:id="@+id/textvi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receiver Id Num"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+                
+    <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textFName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receiver Full name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+        
+         <TextView
+            android:id="@+id/textMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receiver Mobile"
+            android:textSize="20sp"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+        
+        
+        <TextView
+            android:id="@+id/textAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+        
+        
+        <Button
+            android:id="@+id/buttonEnameSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+        
+            </LinearLayout>
+        </ScrollView>
+
+        
+    </LinearLayout>

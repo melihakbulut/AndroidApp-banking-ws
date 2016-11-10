@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Cards</item>
+        <item>Accounts</item>
+        <item>Transfers</item>
+        <item>Repo</item>
+        <item>Payment</item>
+        <item>My Profile</item>
+    </string-array>
+
+    <string-array name="Cards">
+       <item>New Card</item>
+       <item>Update Card</item>
+       <item>Card Details</item>
+    </string-array>
+
+
+    <string-array name="Accounts">
+       <item>Account Details</item>
+    </string-array>
+
+
+    <string-array name="Transfers">
+        <item>Transfer Based On Number</item>
+        <item>Transfer Based On Name</item>
+        <item>Eft Based On Number</item>
+        <item>Eft Based On Name</item>
+        <item>Show Last Transfers</item>
+        <item>Show Last Eft</item>
+    </string-array>
+
+
+    <string-array name="Repo">
+        <item>Start new Repo</item>
+        <item>Show in Progress</item>
+    </string-array>
+
+
+    <string-array name="Payment">
+        <item>Bill</item>
+        <item>Institution</item>
+        <item>Pay Credit Card debt</item>
+        <item>GSM TL</item>
+        <item>Gambling Games</item>
+    </string-array>
+
+
+    <string-array name="MyProfile">
+        <item>Update</item>
+    </string-array>
+
+
+</resources>
